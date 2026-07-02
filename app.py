@@ -9,6 +9,9 @@ scaler = joblib.load("models/main_scaler.pkl")
 
 st.markdown("""
 <style>
+[data-testid="stHeader"] {
+    display: none;
+}
 #MainMenu{
     visibility:hidden;
 }
