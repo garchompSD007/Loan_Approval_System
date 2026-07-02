@@ -7,6 +7,20 @@ from src.data_cleaning import clean_loan_dataset_client
 model = joblib.load("models/loan_approval_model.pkl")
 scaler = joblib.load("models/main_scaler.pkl")
 
+st.markdown("""
+<style>
+#MainMenu{
+    visibility:hidden;
+}
+footer{
+    visibility:hidden;
+}
+header{
+    visibility:hidden;
+}
+</style>
+""", unsafe_allow_html = True)
+
 
 st.set_page_config(page_title="Credit risk assessment system", layout="wide")
 st.title(" BANK LOAN APPROVAL SYSTEM")
