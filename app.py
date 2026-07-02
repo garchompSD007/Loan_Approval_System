@@ -23,8 +23,24 @@ header{
 
 
 st.set_page_config(page_title="Credit risk assessment system", layout="wide")
-st.title(" BANK LOAN APPROVAL SYSTEM")
-st.write("Input applicant matrics below to calculate credit risk assessment. ")
+# st.title(" BANK LOAN APPROVAL SYSTEM")
+st.markdown("""
+<h1 style="
+    text-align: center;
+    color:#4CAF50
+    font-size: 50px
+">
+    BANK LOAN APPROVAL SYSTEM
+</h1>
+<p style="
+    text-align: center;
+    color:grey;
+    font-size: 15px
+">
+    Input applicant matrics below to calculate credit risk assessment. 
+</p>
+""", unsafe_allow_html = True)
+# st.write("Input applicant matrics below to calculate credit risk assessment. ")
 st.markdown("---")
 
 col1, col2, col3= st.columns(3)
