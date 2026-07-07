@@ -10,4 +10,4 @@ An end-to-end supervised ML pipeline using KNN, Logistic Regression, Naive Bayes
 <li>Model Serialisation : joblib</li>
 <li>Data Manipulation : pandas and numpy</li>
 </ul>
-<h3>App is deployed in Streamlit ( loanapprovalsystem-wmhvix7zepvndfqfy8z3ck.streamlit.app ) </h3>
+<h3>App is deployed in Streamlit ( loanapprovalsystem-mrsubha.streamlit.app ) </h3>
